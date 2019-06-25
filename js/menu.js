@@ -11,12 +11,16 @@ function menuBarGenerator(){
   html += '                    <span class="icon-bar"></span>';
   html += '                    <span class="icon-bar"></span>';
   html += '                    <span class="icon-bar"></span>';
+  html += '                    <span class="icon-bar"></span>';
   html += '                </button>';
   html += '                <a class="navbar-brand" href="index.html">Cybersecurity @ MIT</a>';
   html += '            </div>';
   html += '            <!-- Collect the nav links, forms, and other content for toggling -->';
   html += '            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">';
   html += '                <ul class="nav navbar-nav">';
+  html += '                    <li>';
+  html += '                        <a href="2018.html">2018</a>';
+  html += '                    </li>';
   html += '                    <li>';
   html += '                        <a href="2017.html">2017</a>';
   html += '                    </li>';
